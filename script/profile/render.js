@@ -39,7 +39,7 @@ function renderHeader(user) {
   const btnTrocar = document.createElement('a')
   btnTrocar.classList = "btn button-secondary text-color-1 flex a-itens-center"
   btnTrocar.innerText = "Trocar de usuário"
-  btnTrocar.href = "../profile/index.html"
+  btnTrocar.href = "/index.html"
   
   divBtn.appendChild(btnTrocar)
 
@@ -118,7 +118,7 @@ function renderUserProfile(array) {
     })
 
     divProfile.addEventListener('click', () =>{
-      window.location.href = `../home/index.html?user=${user.login}`
+      window.location.href = `..pages/home/index.html?user=${user.login}`
 
     })
 

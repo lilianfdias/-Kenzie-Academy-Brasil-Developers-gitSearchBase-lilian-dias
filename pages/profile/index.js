@@ -13,7 +13,7 @@ form.addEventListener('submit',(event) =>{
     requestUser(user)
     btnProfile.innerHTML = '<img class="rotate-center" src="../../assets/img/spinner.svg">'
     input.value = ""
-    window.location.href = `../home/index.html?user=${user}`
+    window.location.href = `../pages/home/index.html?user=${user}`
 
 })
 
