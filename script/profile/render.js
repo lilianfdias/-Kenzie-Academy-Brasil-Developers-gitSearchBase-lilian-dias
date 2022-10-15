@@ -118,7 +118,7 @@ function renderUserProfile(array) {
     })
 
     divProfile.addEventListener('click', () =>{
-      window.location.href = `..pages/home/index.html?user=${user.login}`
+      window.location.href = `pages/home/index.html?user=${user.login}`
 
     })
 

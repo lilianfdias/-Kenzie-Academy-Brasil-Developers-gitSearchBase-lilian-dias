@@ -11,9 +11,9 @@ form.addEventListener('submit',(event) =>{
     event.preventDefault()
     const user = input.value
     requestUser(user)
-    btnProfile.innerHTML = '<img class="rotate-center" src="../../assets/img/spinner.svg">'
+    btnProfile.innerHTML = '<img class="rotate-center" src="/assets/img/spinner.svg">'
     input.value = ""
-    window.location.href = `../pages/home/index.html?user=${user}`
+    window.location.href = `pages/home/index.html?user=${user}`
 
 })
 
