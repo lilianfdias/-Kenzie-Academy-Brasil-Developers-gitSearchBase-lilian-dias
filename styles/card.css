@@ -15,10 +15,12 @@
 
 .card > h4{
     margin-bottom: 20px;
+    height: 1rem;
 }
 
 .card > p{
     margin-bottom: 27px;
+    height: 8rem;
 }
 
 .wrap{
