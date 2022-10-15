@@ -1,0 +1,23 @@
+.input{
+    height: 2.375rem;
+    padding-left: 0.813rem;
+    background-color: var(--color-grey-1);
+    border-radius: 4px;
+    color: rgba(255, 255, 255, 0.5);
+    width: 19.75rem;
+    border: 1px solid var(--color-grey-1);
+}
+
+input:hover{
+    border: 1px solid var(--color-grey-7);
+}
+
+input:user-invalid{
+    border: 1px solid var(---color-alert);
+}
+
+
+/* 
+input:{
+    border: 1px solid var(--color-alert);
+} */

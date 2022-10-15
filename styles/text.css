@@ -1,0 +1,54 @@
+ .title-1{
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 3rem;
+ }
+
+ .title-2{
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+ }
+
+ .title-3{
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+ }
+
+ .title-4{
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.816rem;
+ }
+
+ .text-1{
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.875rem;
+ }
+
+ .text-2{
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.313rem;
+ }
+
+ .text-3{
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.313rem;
+ }
+
+ .text-color-1{
+    color: var(--color-grey-7);
+ }
+
+ .text-color-2{
+    color: var(--color-grey-2);
+ }
+
+.text-color-3{
+   color: var(--color-alert);
+}
+

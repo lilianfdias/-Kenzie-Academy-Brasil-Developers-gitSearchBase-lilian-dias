@@ -1,0 +1,26 @@
+.card{
+    width: 23.813rem;
+    height: 15.188rem;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    padding: 27px 40px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.5ms;
+}
+
+.card:hover{
+    border: 2px solid var(--color-grey-7);
+    transition: 0.5ms;
+}
+
+.card > h4{
+    margin-bottom: 20px;
+}
+
+.card > p{
+    margin-bottom: 27px;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}

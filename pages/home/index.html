@@ -6,10 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/styles/globalStyles.css" />
     <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="../../styles/displayandaligns.css">
+    <link rel="stylesheet" href="../../styles/text.css">
+    <link rel="stylesheet" href="../../styles/buttons.css">
+    <link rel="stylesheet" href="../../styles/card.css">
+
+
     <title>Git Search</title>
   </head>
-  <body>
-    <main></main>
+  <body class="bg-profile container">
+    <header class="flex m-bot m-top j-content-between a-itens-center header">
+      <div class="flex a-itens-center gap">
+        <img class="img-profile" src="../../assets/img/Ellipse 3.svg" alt="">
+        <div class="gap-2 flex column">
+          <h3 class="title-4 text-color-1">Samuel Leão</h3>
+          <small class="text-1 color-header-prof">UI Developer</small>
+        </div>
+      </div>
+      <div class="flex gap-2 ">
+        <button class="btn button-primary text-color-1">Email</button>
+        <button class="btn button-secondary text-color-1">Trocar de usuário </button>
+      </div>
+    </header>
+    <main>
+          <ul class="flex wrap gap-3 postUl">
+            <!-- <li class="flex card column j-content-center">
+              <h4 class="text-color-1">Project Module 2 - Kenzie</h4>
+              <p class="text-color-1">Various versions have evolved over the years, sometimes by accident, sometimes on purpose injected humour and the like</p>
+              <div class="flex gap-2">
+                <button class="button-p button-p-line text-color-1 text-2">Repositório</button>
+                <button class="button-p button-p-line text-color-1 text-2">Demo</button>
+              </div>
+            </li> -->
+          </ul>  
+    </main>
     <script src="index.js"></script>
+    <script src="../../script/profile/render.js"></script>
+    <script src="../../script/profile/request.js"></script>
+    <script src="home.js"></script>
+    
   </body>
 </html>

@@ -1,0 +1,70 @@
+.btn{
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 0.875rem;
+    height: 2.375rem;
+    cursor: pointer;
+}
+
+.button-primary{
+    background-color: var(--color-brand-2);
+    border: 1px solid var(--color-brand-2);
+    padding: 0 1.5rem;
+    transition: 0.5ms;
+
+}
+
+.button-primary:hover{
+    background-color: var(--color-brand-1);
+    transition: 0.5ms;
+}
+
+.button-secondary{
+    background-color: var(--color-grey-3);
+    border: 1px solid var(--color-grey-3);
+    padding: 0 1.5rem;
+    transition: 0.5ms;
+
+}
+
+.button-secondary:hover{
+    background-color: var(--color-grey-2);
+    transition: 0.5ms;
+}
+
+.button-p{
+    height: 1.75rem;
+    padding: 0 8px;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 0.875rem;
+    cursor: pointer;
+}
+
+
+
+.button-p-line:hover{
+    background-color: var(--color-brand-2);
+    border: 1px solid var(--color-brand-2 );
+    transition: 0.3ms;
+}
+
+.button-p-line{
+    background-color: transparent;
+    border: 1px solid var(--color-grey-7);
+    transition: 0.3ms;
+}
+
+.button-primary-inactive{
+    background: rgba(214, 51, 108, 0.4); 
+    border: 1px solid  rgba(214, 51, 108, 0.4);
+    padding: 0.625rem 0;
+
+}
+
+.button-primary-active{
+    background:var(--color-brand-2); 
+    border: 1px solid var(--color-brand-2);
+    color: var(--color-grey-7);
+
+}
